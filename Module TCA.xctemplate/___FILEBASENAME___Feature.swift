@@ -7,7 +7,8 @@
 
 import ComposableArchitecture
 
-struct ___VARIABLE_productName:identifier___Feature: Reducer {
+@Reducer
+struct ___VARIABLE_productName:identifier___Feature {
 
     var body: some ReducerOf<Self> {
         Reduce { state, action in
