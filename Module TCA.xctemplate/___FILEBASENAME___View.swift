@@ -13,7 +13,8 @@ struct ___VARIABLE_productName:identifier___View: View {
     let store: StoreOf<___VARIABLE_productName:identifier___Feature>
 
     var body: some View {
-        WithViewStore(store, observe: { $0 }) { viewStore in
+        WithPerceptionTracking {
+            let _ = Self._printChanges()
             VStack {
 
             }

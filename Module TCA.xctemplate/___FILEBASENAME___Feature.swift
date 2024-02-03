@@ -17,11 +17,12 @@ struct ___VARIABLE_productName:identifier___Feature {
         }
     }
 
-    struct State: Equatable {
+    @ObservableState
+    struct State {
 
     }
 
-    enum Action: Equatable {
+    enum Action {
 
     }
 
