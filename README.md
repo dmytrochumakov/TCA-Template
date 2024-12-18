@@ -8,5 +8,17 @@
 - Open your project
 - Use a template
 
+## 🤝 Contributing
+
+### Clone the repo
+```bash
+git clone https://github.com/dmytrochumakov/TCA-Template.git
+```
+
+### Install template
+``` bash
+swift install.swift
+```
+
 ## License
 TCA-Template is licensed under the MIT License, please see the [LICENSE](LICENSE) file.
